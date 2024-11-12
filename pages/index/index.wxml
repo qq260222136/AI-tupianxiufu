@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="containerBox">
+  <view class="leftBtn" bindtap="loadImage">
+    <image src="../../images/xj.png" class="btnImg"></image>
+    上传图像
+  </view>
+  <view class="rightBtn" bindtap="identify">
+    <image src="../../images/face.png" class="btnImg"></image>
+    照片修复
+  </view>
+</view>
+
+<image src="{{imgSrc}}" class="showImg" mode="heightFix"></image>
+
+<image src="data:image/png;base64,{{imgBase64}}" class="showImg" mode="heightFix"></image>
+
+<view bindtap="downloadReport" class="centerBtn">保存图片</view>
+
+
+

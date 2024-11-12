@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "老照片修复",
+    "navigationBarBackgroundColor":"#FFFFFFFF",
+    "navigationBarTextStyle":"black"
+
+  }
+}
